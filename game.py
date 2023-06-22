@@ -27,38 +27,43 @@ while True:
         continue
 
     chosen_weapon = weapons[int(weapon_choice) - 1]
-    break
-
-print("You have chosen the", chosen_weapon + ".")
-print()
-print("As you explore deeper into the dungeon, you encounter a group of menacing creatures.")
-
-while True:
-    print("Choose a number from 1 to 10, " + name)
-    number_input = input("Number: ")
-
-    if not number_input.isdigit():
-        print("That's not a number, DIE!")
-        continue
-
-    number = int(number_input)
-
-    if number == 5:
-        print("CORRECT, " + name)
-        print(".")
-        time.sleep(1)
-        print(".")
-        time.sleep(1)
-        print(".")
-        time.sleep(1)
-        print("You grab your", chosen_weapon, "and swiftly run towards the creatures, ready to battle them.")
-        time.sleep(2)
-        print("With each swing of your weapon, you fight valiantly, defeating the creatures one by one.")
-        time.sleep(2)
-        print("As the last creature falls, you catch your breath and feel a sense of accomplishment.")
-        break
+    if chosen_weapon != "bow":
+        print("You have chosen the", chosen_weapon + ".")
+        print("As you explore deeper into the dungeon, you encounter a group of menacing harpies.")
+        print("You swing your", chosen_weapon, "at the harpies, but it's not effective enough.")
+        print("The harpies overpower you, and you fall to your demise.")
+        print("You died!")
+        exit()
     else:
-        print("YOU DIED, " + name)
+        print("You have chosen the", chosen_weapon + ".")
+        print("As you explore deeper into the dungeon, you hear the flapping wings of approaching harpies.")
 
-print()
-print("You have emerged victorious, " + name + "! Your bravery and skill have triumphed in the dungeon.")
+        print("The harpies are getting closer. What do you do?")
+        print("1. Shoot an arrow at them")
+        print("2. Hide and wait for them to pass")
+        print("3. Charge towards them with your bow")
+        choice = input("Enter your choice (1-3): ")
+
+        if choice == "1":
+            print("You draw your bow and shoot an arrow at the harpies.")
+            print("The arrow finds its mark, striking down one of the harpies.")
+            print("The remaining harpies scatter in fear, giving you an opportunity to escape.")
+            print("You successfully fend off the harpies with your bow and continue your journey.")
+            break
+        elif choice == "2":
+            print("You quickly find a hiding spot and wait for the harpies to pass.")
+            print("The harpies fly by without noticing your presence.")
+            print("You emerge from your hiding spot and continue your journey undisturbed.")
+            break
+        elif choice == "3":
+            print("You bravely charge towards the harpies with your bow in hand.")
+            print("Using your agility and skill, you manage to take down several harpies.")
+            print("However, their numbers overwhelm you, and you are forced to retreat.")
+            print("You narrowly escape the harpies' clutches, wounded but alive.")
+            break
+        else:
+            print("Invalid choice. Try again.")
+            continue
+
+    print()
+    print("Congratulations, " + name + "! You have successfully dealt with the harpies and continue your adventure.")
