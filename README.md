@@ -2,4 +2,4 @@
 
 ## Welcome!
 
-This is a dungeon game about you reaching to the top. Game involves with decision making, pretty straight forward answers. 
+This is an adventure gameabout you travelling an endless road of evil. Game involves with decision making with pretty straight forward answers. 
