@@ -27,7 +27,7 @@ while True:
         continue
 
     chosen_weapon = weapons[int(weapon_choice) - 1]
-        if chosen_weapon != "bow":
+    if chosen_weapon != "bow":
         print("You have chosen the", chosen_weapon + ".")
         print_with_typing("As you explore deeper into the dungeon, you encounter a group of menacing harpies.", delay=0.08)
         print_with_typing("You swing your", chosen_weapon, "at the harpies, but it's not effective enough.", delay=0.08)
