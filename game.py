@@ -47,14 +47,13 @@ while True:
     else:
         print("You have chosen the " + chosen_weapon + ".")
         print()
-        print_with_typing("As you explore deeper into the dungeon, you hear the flapping wings of approaching harpies.\nThe harpies are getting closer. What do you do?")
         print("1. Shoot an arrow at them")
         print("2. Hide and wait for them to pass")
         print("3. Charge towards them with your bow")
         choice = input("Enter your choice (1-3): ")
 
         if choice == "1":
-           print_with_typing("You draw your bow and shoot an arrow at the harpies.\n"
+            print_with_typing("You draw your bow and shoot an arrow at the harpies.\n"
                               "The arrow finds its mark, striking down one of the harpies.\n"
                               "The remaining harpies scatter in fear, giving you an opportunity to escape.")
             print("")
@@ -72,7 +71,7 @@ while True:
                               "However, their numbers overwhelm you, and you are forced to retreat.")
             print("")
             print_with_typing("As the harpies surround you, their talons tear through your defenses.\n"
-                      "You fight valiantly but succumb to your injuries, unable to escape their grasp.")
+                              "You fight valiantly but succumb to your injuries, unable to escape their grasp.")
             break
         else:
             print("Invalid choice. Try again.")
@@ -80,3 +79,6 @@ while True:
 
     print()
     print("Congratulations, " + name + "! You have successfully dealt with the harpies and continue your adventure.")
+
+
+
