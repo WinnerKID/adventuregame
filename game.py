@@ -58,13 +58,37 @@ while True:
                               "The remaining harpies scatter in fear, giving you an opportunity to escape.")
             print("")
             print("You successfully fend off the harpies with your bow and continue your journey.")
-            break
+            print()
+            print_with_typing("As you walk further down the dungeon, you find a big gate.\nYou can feel a powerful energy behind the doors. ")
+            print()
+
+            # Prompt user to type "OPEN" to open the gate
+            while True:
+                open_input = input("Type OPEN to open the gate: ").upper()
+                if open_input != "OPEN":
+                    print_with_typing("You have no choice. ")
+                else:
+                    print_with_typing("\nThe gate opens, revealing a hidden path.")
+                break
+                
         elif choice == "2":
             print_with_typing("You quickly find a hiding spot and wait for the harpies to pass.\n"
                               "The harpies fly by without noticing your presence.\n")
             print()
             print("You emerge from your hiding spot and continue your journey undisturbed.")
-            break
+            print()
+            print_with_typing("As you walk further down the dungeon, you find a big gate.\nYou can feel a powerful energy behind the doors. ")
+            print()
+
+            # Prompt user to type "OPEN" to open the gate
+            while True:
+                open_input = input("Type OPEN to open the gate: ").upper()
+                if open_input != "OPEN":
+                    print_with_typing("You have no choice. ")
+                else:
+                    print_with_typing("\nThe gate opens, revealing a hidden path.")
+                break
+
         elif choice == "3":
             print_with_typing("You bravely charge towards the harpies with your bow in hand.\n"
                               "Using your agility and skill, you manage to take down several harpies.\n"
