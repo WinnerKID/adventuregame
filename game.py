@@ -63,6 +63,7 @@ while True:
         elif choice == "2":
             print_with_typing("You quickly find a hiding spot and wait for the harpies to pass.\n"
                               "The harpies fly by without noticing your presence.\n")
+            print()
             print("You emerge from your hiding spot and continue your journey undisturbed.")
             break
         elif choice == "3":
@@ -70,7 +71,8 @@ while True:
                               "Using your agility and skill, you manage to take down several harpies.\n"
                               "However, their numbers overwhelm you, and you are forced to retreat.")
             print("")
-            print("You narrowly escape the harpies' clutches, wounded but alive.")
+            print_with_typing("As the harpies surround you, their talons tear through your defenses.\n"
+                      "You fight valiantly but succumb to your injuries, unable to escape their grasp.")
             break
         else:
             print("Invalid choice. Try again.")
