@@ -53,6 +53,7 @@ while True:
         choice = input("Enter your choice (1-3): ")
 
         if choice == "1":
+            print()
             print_with_typing("You draw your bow and shoot an arrow at the harpies.\n"
                               "The arrow finds its mark, striking down one of the harpies.\n"
                               "The remaining harpies scatter in fear, giving you an opportunity to escape.")
@@ -66,12 +67,14 @@ while True:
             while True:
                 open_input = input("Type OPEN to open the gate: ").upper()
                 if open_input != "OPEN":
-                    print_with_typing("You have no choice. ")
+                    print_with_typing("You have no choice " + name)
                 else:
                     print_with_typing("\nThe gate opens, revealing a hidden path.")
-                break
+                    break
+            break
 
         elif choice == "2":
+            print()
             print_with_typing("You quickly find a hiding spot and wait for the harpies to pass.\n"
                               "The harpies fly by without noticing your presence.\n")
             print()
@@ -84,12 +87,14 @@ while True:
             while True:
                 open_input = input("Type OPEN to open the gate: ").upper()
                 if open_input != "OPEN":
-                    print_with_typing("You have no choice. ")
+                    print_with_typing("You have no choice " + name)
                 else:
                     print_with_typing("\nThe gate opens, revealing a hidden path.")
-                break
+                    break
+            break
 
         elif choice == "3":
+            print()
             print_with_typing("You bravely charge towards the harpies with your bow in hand.\n"
                               "Using your agility and skill, you manage to take down several harpies.\n"
                               "However, their numbers overwhelm you, and you are forced to retreat.")
@@ -101,8 +106,6 @@ while True:
             print("Invalid choice. Try again.")
             continue
 
-    print()
-    print("Congratulations, " + name + "! You have successfully dealt with the harpies and continue your adventure.")
 
 
 
