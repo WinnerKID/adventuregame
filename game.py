@@ -70,7 +70,7 @@ while True:
                 else:
                     print_with_typing("\nThe gate opens, revealing a hidden path.")
                 break
-                
+
         elif choice == "2":
             print_with_typing("You quickly find a hiding spot and wait for the harpies to pass.\n"
                               "The harpies fly by without noticing your presence.\n")
