@@ -1,4 +1,4 @@
-# Adventure Game
+# Path of God
 
 ## Welcome!
 
