@@ -101,11 +101,10 @@ while True:
             print("")
             print_with_typing("As the harpies surround you, their talons tear through your defenses.\n"
                               "You fight valiantly but succumb to your injuries, unable to escape their grasp.")
-            break
+            exit()
         else:
             print("Invalid choice. Try again.")
             continue
 
 
-
-
+print("dogg")
