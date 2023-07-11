@@ -107,4 +107,4 @@ while True:
             continue
 
 
-print("dogg")
+print("~You look around the room and see a lady with a big hat in the middle of the room.~")
