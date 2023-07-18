@@ -165,17 +165,19 @@ time.sleep(2)
 
 print_with_typing("She's of no use to you now.\rYou draw your bow out and shoot aiming at her head")
 print("~SwwwoooOOOOsshhhHH~")
-time.sleep(1)
+time.sleep(3)
 
 print("It passed through her body...\n")
 print_with_typing("Is she a ghost?\n")
+time.sleep(2)
 
 print("~Her eyes stare back at you~")
 print('''(⊙‿⊙)''')
+time.sleep(2)
 
 print_with_typing("Freaked out, you pull out another arrow aiming for her head again\n")
 print("Before you can even shoot")
-time.sleep(1)
+time.sleep(2)
 print_with_typing("She screams: RIIIIIAAAAAAAAAAAAAAAAIIIEEEEEEEEEEEHHHHHHH\n")
 print("You immediately cover your ears due to the loud noise\r~It's too much for you to handle~\rYou collapse just as she finishes her loud shriek")
 
