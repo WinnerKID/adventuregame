@@ -179,7 +179,11 @@ print_with_typing("Freaked out, you pull out another arrow aiming for her head a
 print("Before you can even shoot")
 time.sleep(2)
 print_with_typing("She screams: RIIIIIAAAAAAAAAAAAAAAAIIIEEEEEEEEEEEHHHHHHH\n")
-print("You immediately cover your ears due to the loud noise\r~It's too much for you to handle~\rYou collapse just as she finishes her loud shriek")
-
+print("You immediately cover your ears due to the loud noise\n~It's too much for you to handle~\nYou collapse just as she finishes her loud shriek")
+time.sleep(5)
+wakeup = "\nWake up!"
+print(wakeup*5)
+time.sleep(3)
+print("")
 
 
