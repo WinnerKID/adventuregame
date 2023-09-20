@@ -1,6 +1,8 @@
 <div align="center">
-<h1>Path of God<h1>
-</div>
+<b><h1>Path of God</h1></b>
+</div
+
+<br>
 
 ## Welcome warrior!
 
